@@ -1,4 +1,8 @@
 p {
-    color = black;
+    color: black;
+    font: arial;
+}
 
+.white {
+    colour: white;
 }
