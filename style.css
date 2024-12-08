@@ -1,8 +1,7 @@
 p {
     color: black;
-    font: arial;
 }
 
-.white {
+p .white {
     color: white;
 }
