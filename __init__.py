@@ -11,5 +11,17 @@ def first():
 def mentoringclub():
     return render_template('room.html')
 
+@app.route('/lift')
+def lift():
+    return render_template('lift.html')
+
+
+#####################################################
+
+@app.route('/d3c0y')
+def decoy1():
+    return render_template('decoy1.html')
+
+#####################################################
 if __name__ == '__main__':
-  app.run()
+  app.run(debug=True)
