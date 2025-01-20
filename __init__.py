@@ -7,6 +7,7 @@ app = Flask(__name__)
 def first():
     return render_template('index.html')
 
+#At clock
 @app.route('/Clock')
 def clock():
     return render_template('clock.html')
