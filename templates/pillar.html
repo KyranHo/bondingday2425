@@ -1,11 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Pillar</title>
-</head>
-<body>
-    <p>Congrats on finding this pillar. Why this pillar? Yes. </p>
-    <p>Here's the final piece of the treasure: value x</p>
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block content %}
+<p class="masthead-subheading font-weight-light mb-0">
+    Yay, pillar!!!!!
+    <br>
+    Here's a number for the code:
+</p>
+<h1>2</h1>
+<p class="masthead-subheading font-weight-light mb-0">
+    Almost there... I think...?
+</p>
+{% endblock %}
+
+{% block body %}
+<p class="masthead-subheading font-weight-light text-secondary mb-0">
+I’m the silent worker beneath your gaze, <br>
+I respond to touch in a myriad of ways. <br>
+I’m not the brain, but I help you write, <br>
+Without me, you’d struggle to take flight.
+</p>
+{% endblock %}
